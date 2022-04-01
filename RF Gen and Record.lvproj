@@ -13,6 +13,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Analysis" Type="Folder">
+			<Item Name="RF Data to Bytes.vi" Type="VI" URL="../src/Analysis/RF Data to Bytes.vi"/>
+		</Item>
 		<Item Name="RFSA" Type="Folder">
 			<Item Name="RFSA Power vs Time (Zero-Span).vi" Type="VI" URL="../src/RFSA/RFSA Power vs Time (Zero-Span).vi"/>
 			<Item Name="Acquire and Time.vi" Type="VI" URL="../src/RFSA/Support/Acquire and Time.vi"/>
@@ -187,7 +190,6 @@
 			<Item Name="Data Processing.ctl" Type="VI" URL="../src/Messaging/Data Processing.ctl"/>
 			<Item Name="Waveform Queue Data.ctl" Type="VI" URL="../src/Messaging/Waveform Queue Data.ctl"/>
 			<Item Name="IQ to Mean Power.vi" Type="VI" URL="../src/Analysis/IQ to Mean Power.vi"/>
-			<Item Name="RF Data to Bytes.vi" Type="VI" URL="../src/Analysis/RF Data to Bytes.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
