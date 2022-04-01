@@ -42,19 +42,11 @@
 		<Item Name="Messaging" Type="Folder">
 			<Item Name="Enqueue Data.vi" Type="VI" URL="../src/Messaging/Enqueue Data.vi"/>
 			<Item Name="DAQ Message.ctl" Type="VI" URL="../src/Messaging/DAQ Message.ctl"/>
-			<Item Name="Analysis Message.ctl" Type="VI" URL="../src/Messaging/Analysis Message.ctl"/>
-			<Item Name="Analysis Message with Waveform.ctl" Type="VI" URL="../src/Messaging/Analysis Message with Waveform.ctl"/>
 			<Item Name="Write Message with Waveform.ctl" Type="VI" URL="../src/Messaging/Write Message with Waveform.ctl"/>
 			<Item Name="Enqueue Write.vi" Type="VI" URL="../src/Messaging/Enqueue Write.vi"/>
-			<Item Name="Enqueue Analysis.vi" Type="VI" URL="../src/Messaging/Enqueue Analysis.vi"/>
 			<Item Name="Write Message.ctl" Type="VI" URL="../src/Messaging/Write Message.ctl"/>
 			<Item Name="RFSA Message.ctl" Type="VI" URL="../src/Messaging/RFSA Message.ctl"/>
 			<Item Name="RFSG Message.ctl" Type="VI" URL="../src/Messaging/RFSG Message.ctl"/>
-		</Item>
-		<Item Name="Analysis" Type="Folder">
-			<Item Name="Analyze IQ.vi" Type="VI" URL="../src/Analysis/Analyze IQ.vi"/>
-			<Item Name="IQ to Mean Power.vi" Type="VI" URL="../src/Analysis/IQ to Mean Power.vi"/>
-			<Item Name="RF Data to Bytes.vi" Type="VI" URL="../src/Analysis/RF Data to Bytes.vi"/>
 		</Item>
 		<Item Name="Disk" Type="Folder">
 			<Item Name="Write to Disk.vi" Type="VI" URL="../src/Disk/Write to Disk.vi"/>
@@ -62,11 +54,6 @@
 			<Item Name="Generate File Path.vi" Type="VI" URL="../src/Disk/Generate File Path.vi"/>
 		</Item>
 		<Item Name="Plot" Type="Folder">
-			<Item Name="Plotting Data.ctl" Type="VI" URL="../src/Messaging/Plotting Data.ctl"/>
-			<Item Name="Plotting Message.ctl" Type="VI" URL="../src/Messaging/Plotting Message.ctl"/>
-			<Item Name="Enqueue Plot Message.vi" Type="VI" URL="../src/Messaging/Enqueue Plot Message.vi"/>
-			<Item Name="Build Frequency Array.vi" Type="VI" URL="../src/Plot/Build Frequency Array.vi"/>
-			<Item Name="Get Frequency Scale.vi" Type="VI" URL="../src/Plot/Get Frequency Scale.vi"/>
 			<Item Name="IQ to XY Cluster.vi" Type="VI" URL="../src/Plot/IQ to XY Cluster.vi"/>
 		</Item>
 		<Item Name="GUI" Type="Folder">
@@ -168,9 +155,6 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
-				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -192,7 +176,6 @@
 				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
 				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-				<Item Name="LVOffsetAndMultiplierTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVOffsetAndMultiplierTypeDef.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niRFSA.dll" Type="Document" URL="niRFSA.dll">
@@ -203,6 +186,8 @@
 			</Item>
 			<Item Name="Data Processing.ctl" Type="VI" URL="../src/Messaging/Data Processing.ctl"/>
 			<Item Name="Waveform Queue Data.ctl" Type="VI" URL="../src/Messaging/Waveform Queue Data.ctl"/>
+			<Item Name="IQ to Mean Power.vi" Type="VI" URL="../src/Analysis/IQ to Mean Power.vi"/>
+			<Item Name="RF Data to Bytes.vi" Type="VI" URL="../src/Analysis/RF Data to Bytes.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
